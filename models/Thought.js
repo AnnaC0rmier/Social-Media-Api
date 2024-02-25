@@ -13,8 +13,8 @@ const thoughtSchema = new Schema(
       default: Date.now,
       get: (timestamp) => timestamp.toLocaleString(),
     },
-    user: {
-      type: Schema.Types.ObjectId,
+    userName: {
+      type: String,
       ref: 'User',
       required: true,
     },
