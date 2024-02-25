@@ -1,3 +1,8 @@
+# Social Network API README
+
+## Overview
+
+This repository contains the code for a Social Network API built using Node.js, Express.js, MongoDB, and Mongoose. The API provides endpoints for managing users, thoughts, reactions, and friend relationships.
 
 
 
